@@ -24,6 +24,7 @@ interests:
 - Artificial Intelligence
 - Federated Computing
 - Robotics
+- Industrial IoT
 
 education:
   courses:
@@ -31,7 +32,7 @@ education:
     institution: Indian Institute of Technology Guwahati
     year: 2019
   - course: MTech in Computer Science and Engineering
-    institution: ndian Institute of Technology Guwahati
+    institution: Indian Institute of Technology Guwahati
     year: 2015
 #  - course: BTech in Electronics and Telecommunication
 #    institution: Massachusetts Institute of Technology
@@ -42,9 +43,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+- icon: linkedin-in
+  icon_pack: fab
+  link: https://www.linkedin.com/in/tusharsemwal/
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/node_tushar
@@ -70,4 +71,8 @@ user_groups:
 - Visitors
 ---
 
-Tushar Semwal is currently a post-doctoral research associate at the The Univeristy of Edinburgh. He is working on sensing and data analytics solutions under the ORCA (Offshore Robotics for Certification of Assets) project targeted towards the Oil & Gas industries. 
+I am currently a post-doctoral research associate at the [The Univeristy of Edinburgh](https://www.eng.ed.ac.uk/). I am working with [Dr. Adam A. Stokes](http://stokesresearchgroup.com/) on sensing and data analytics solutions under the [ORCA (Offshore Robotics for Certification of Assets)](https://orcahub.org/) project targeted towards the Oil & Gas industries. My research interest lies at the junction of machine learning, robotics, internet of things, and decenentralisation. Recently, I have picked up applying [Transfer Learning](http://ruder.io/transfer-learning/) and [Federated Computing](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html) across industrial IoT applications.
+
+I received my PhD and MTech from the Dept. of Computer Science and Engineering, [Indian Institute of Technology Guwahati (IITG)](http://www.iitg.ac.in/) where I worked with [Prof. S. B. Nair](http://www.iitg.ac.in/cse/robotics/) on "Decentralising Intelligence in Cyber-Physical Systems". I am passionate about inter-disciplinary and applied research. 
+
+For me an idea is important, but without its development and deployment, it remains as a paper. Think -> Develop -> Deploy -> Repeat!
