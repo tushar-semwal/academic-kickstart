@@ -24,8 +24,6 @@ disqusShortname = ""
 ############################
 ## Advanced options below ##
 ############################
-#css
-custom_css = ["royal_blue.css"]
 
 
 # Name of Academic theme folder in `themes/`.
