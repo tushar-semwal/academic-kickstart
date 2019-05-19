@@ -1,11 +1,11 @@
 +++
 title = "A Distributed Epigenetic Shape Formation and Regeneration Algorithm for a Swarm of Robots"
 date = 2018-01-01
-authors = ["Rahul Shivnarayan Mishra", "Tushar Semwal", "Shivashankar B Nair"]
+authors = ["Rahul Shivnarayan Mishra", "*Tushar Semwal*", "Shivashankar B Nair"]
 publication_types = ["1"]
 abstract = ""
 featured = true
-publication = "*Proceedings of the Genetic and Evolutionary Computation Conference Companion*"
+publication = "*Proceedings of the Genetic and Evolutionary Computation Conference Companion* **[CORE Ranking A]**"
 # Links (optional).
 url_pdf = "https://arxiv.org/abs/1810.11935"
 #url_code = "#"

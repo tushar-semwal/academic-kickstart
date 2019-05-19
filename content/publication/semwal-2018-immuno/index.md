@@ -5,6 +5,7 @@ authors = ["Tushar Semwal", "Divya D Kulkarni", "Shivashankar B Nair"]
 publication_types = ["1"]
 abstract = ""
 featured = false
-publication = "*Proceedings of the Genetic and Evolutionary Computation Conference*"
+publication = "*Proceedings of the Genetic and Evolutionary Computation Conference* [CORE ranking A]"
+url_pdf = "https://arxiv.org/abs/1806.09789"
 +++
 
