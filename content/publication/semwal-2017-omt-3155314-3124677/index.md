@@ -5,9 +5,9 @@ authors = ["Tushar Semwal", "Shashi Shekhar Jha", "Shivashankar B. Nair"]
 publication_types = ["2"]
 abstract = ""
 featured = true
-publication = "*ACM Trans. Auton. Adapt. Syst.*"
+publication = "*ACM Transactions on Autonomous and Adaptive systems*"
 tags = ["Mutual exclusion", "distributed systems", "multi-robot systems (MRS)"]
-url_pdf = "http://doi.acm.org/10.1145/3124677"
+url_pdf = "https://arxiv.org/abs/1803.04781"
 doi = "10.1145/3124677"
 +++
 
