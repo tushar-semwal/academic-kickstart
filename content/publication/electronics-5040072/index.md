@@ -4,7 +4,7 @@ date = 2016-01-01
 authors = ["Tushar Semwal", "Shivashankar Bhaskaran Nair"]
 publication_types = ["2"]
 abstract = ""
-featured = false
+featured = true
 publication = "*Electronics, MDPI*"
 # Links (optional).
 url_pdf = "https://www.mdpi.com/2079-9292/5/4/72/pdf"
