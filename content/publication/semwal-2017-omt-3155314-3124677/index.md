@@ -1,7 +1,7 @@
 +++
 title = "On Ordering Multi-Robot Task Executions Within a Cyber Physical System"
 date = 2017-11-01
-authors = ["Tushar Semwal", "Shashi Shekhar Jha", "Shivashankar B. Nair"]
+authors = ["*Tushar Semwal*", "Shashi Shekhar Jha", "Shivashankar B. Nair"]
 publication_types = ["2"]
 abstract = ""
 featured = true
