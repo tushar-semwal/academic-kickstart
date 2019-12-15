@@ -33,7 +33,7 @@ subtitle = ""
      name = "Robotics"
      tag = "robotics"
    [[content.filter_button]]
-     name = "Arduino"
+     name = "Embedded"
      tag = "arduino"
 
    [[content.filter_button]]
