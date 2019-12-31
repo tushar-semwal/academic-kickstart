@@ -28,7 +28,7 @@ url_pdf = "https://www.mdpi.com/2079-9292/5/4/72/pdf"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  focal_point = "Smart"
 +++
 
 
