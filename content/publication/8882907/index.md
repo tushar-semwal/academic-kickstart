@@ -6,6 +6,6 @@ publication_types = ["1"]
 abstract = ""
 featured = false
 publication = "*2019 Second International Conference on Advanced Computational and Communication Paradigms (ICACCP)*"
-tags = ["mobile agents;security of data;multi-agent systems;stealthy mobile agents;smart contract;blockchain technology;Byzantine mobile agents;Mobile agents;Blockchain;Task analysis;Security;Robots;Paints;Color;Blockchain Technology;Smart Contract;Multi-Agent Systems;Mobile Agents;Byzantine Agent"]
+tags = ["mobile agents;security of data"]
 +++
 
