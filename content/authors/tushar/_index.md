@@ -57,9 +57,9 @@ social:
   link: https://github.com/tushar-semwal
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-- icon: cv
-  icon_pack: ai
-  link: files/cv.pdf
+#- icon: cv
+#  icon_pack: ai
+#  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -71,6 +71,6 @@ user_groups:
 - Visitors
 ---
 
-I am Tushar, currently a post-doctoral research associate at the [The University of Edinburgh](https://www.eng.ed.ac.uk/). I am working with [Dr. Adam A. Stokes](http://stokesresearchgroup.com/) on sensing and data science solutions for the Oil & Gas industries under the [ORCA (Offshore Robotics for Certification of Assets)](https://orcahub.org/) project. My research area lies at the junction of machine learning, robotics, internet of things, and decenentralisation. Recently, I have picked up an interest on applying [Transfer Learning](http://ruder.io/transfer-learning/) and [Federated Computing](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html) across industrial IoT applications.
+I am Tushar, currently a post-doctoral research associate at [The University of Edinburgh](https://www.eng.ed.ac.uk/). I am working with [Dr. Adam A. Stokes](http://stokesresearchgroup.com/) on sensing and data science solutions for the Oil & Gas industries under the [ORCA (Offshore Robotics for Certification of Assets)](https://orcahub.org/) project. My research area lies at the junction of machine learning, robotics, internet of things, and decenentralisation. Recently, I have picked up an interest on applying [Transfer Learning](http://ruder.io/transfer-learning/) and [Federated Computing](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html) across industrial IoT applications.
 
 I received my PhD and MTech from the Dept. of Computer Science and Engineering, [Indian Institute of Technology Guwahati (IITG)](http://www.iitg.ac.in/) under the supervision of [Prof. S. B. Nair](http://www.iitg.ac.in/cse/robotics/) on "Decentralising Intelligence in Cyber-Physical Systems". I am passionate about inter-disciplinary and applied research. 
