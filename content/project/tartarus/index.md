@@ -1,14 +1,14 @@
 +++
-title = "Arduino FirebirdV Extension"
-date = 2019-03-12T18:18:17+01:00
+title = "Project Tartarus"
+date = 2019-05-19T18:36:30+01:00
 draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["robotics","embedded","firebirdV"]
+tags = ["softwares","robotics","embedded"]
 
 # Project summary to display on homepage.
-summary = "Extending Arduino IDE for FirebirdV robot by Nex-Robotics."
+summary = "Tartarus is a multi-agent emulator for Static as well as Mobile Agents."
 
 # Slides (optional).
 #   Associate this page with Markdown slides.
@@ -23,7 +23,7 @@ external_link = ""
 
 # Links (optional).
 url_pdf = ""
-url_code = "https://github.com/tushar-semwal/Arduino-FirebirdV"
+url_code = "https://github.com/roboticslab-cseiitg/ProjectTartarus"
 url_dataset = ""
 url_slides = ""
 url_video = ""

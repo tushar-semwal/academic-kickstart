@@ -34,7 +34,7 @@ subtitle = ""
      tag = "robotics"
    [[content.filter_button]]
      name = "Embedded"
-     tag = "arduino"
+     tag = "embedded"
 
    [[content.filter_button]]
      name = "Softwares"

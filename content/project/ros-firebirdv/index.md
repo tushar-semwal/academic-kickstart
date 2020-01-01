@@ -5,7 +5,7 @@ draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["arduino","robotics"]
+tags = ["embedded","robotics"]
 
 # Project summary to display on homepage.
 summary = "A ROS package for FirebirdV robot by Nex-Robotics (India)."
