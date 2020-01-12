@@ -18,7 +18,7 @@ organizations:
   url: "https://www.eng.ed.ac.uk/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Decentralised and Distributed computing, Internet of Things, Robotics, Transfer Learning, and Federated Learning.
+bio: My research interests include Decentralised and Distributed Machine Learning, Internet of Things, Robotics, Transfer Learning, and Federated Learning.
 
 interests:
 - Artificial Intelligence
