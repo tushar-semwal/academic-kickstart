@@ -28,9 +28,9 @@ You will get output similar to `b'240ac4FFFE008d88'`. Copy the `240ac4FFFE008d88
 
 2. Create a project folder and copy these three files - [main.py](https://github.com/pycom/pycom-libraries/blob/master/examples/lorawan-nano-gateway/main.py), [config.py](https://github.com/pycom/pycom-libraries/blob/master/examples/lorawan-nano-gateway/config.py), and [nanogateway.py](https://github.com/pycom/pycom-libraries/blob/master/examples/lorawan-nano-gateway/nanogateway.py) inside the folder.
 
+3. Open the project folder in ATOM and edit the `nanogateway.py` file. Since I am on an eduroam network, it is difficult to setup internet. Thus, we will remove any lines of code in the `nanogateway.py` file which requires internet. Fortunately, there are not many line. Just comment out lines `145--149` which show ntp_sync function calls. 
 
-
-
+4. 
 
 
 
