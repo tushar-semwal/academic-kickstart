@@ -13,7 +13,9 @@ LoRa Gateway in a LoRaWAN network is a device/hardware which connects an end sen
 
 The already available instructions on manufacturer site are designed to be used for The Things Network. This blog provide a minimum steps to setup a Chirpstack LoRaWAN server to which one have more control and is not connected to the internet. 
 
-Let us first setup the LoPy. I am using a LoPy1.0 with expansion board 2.0 updated to firmware 1.16. **Please update the LoPy before proceeding.** We will use the nano-gateway code provided by pycom. There are a total of 3 files - main.py, config.py, and nanogateway.py.
+Let us first setup the LoPy. I am using a LoPy4.0 with expansion board 3.0 updated to firmware 1.16. **Please update the LoPy before proceeding.** We will use the nano-gateway code provided by pycom. There are a total of 3 files - main.py, config.py, and nanogateway.py.
+
+I am using ATOM editor with a pycom plugin.
 
 1. We need a Gateway ID which is unique to each LoPy device. Just run the following lines of code on the device through REPL command line interface (use ATOM editor).
 ```
@@ -22,3 +24,17 @@ import ubinascii
 wl = WLAN()
 ubinascii.hexlify(wl.mac())[:6] + 'FFFE' + ubinascii.hexlify(wl.mac())[6:]
 ```
+You will get output similar to `b'240ac4FFFE008d88'`. Copy the `240ac4FFFE008d88` part and save somewhere. We will be using it later.
+
+2. Create a project folder and copy these three files - [main.py](https://github.com/pycom/pycom-libraries/blob/master/examples/lorawan-nano-gateway/main.py), [config.py](https://github.com/pycom/pycom-libraries/blob/master/examples/lorawan-nano-gateway/config.py), and [nanogateway.py](https://github.com/pycom/pycom-libraries/blob/master/examples/lorawan-nano-gateway/nanogateway.py) inside the folder.
+
+
+
+
+
+
+
+
+
+
+
