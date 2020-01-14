@@ -9,9 +9,22 @@ header:
   caption: ''
   image: ''
 ---
+[Blog not complete yet. Under construction!!]
 LoRa Gateway in a LoRaWAN network is a device/hardware which connects an end sensing/client LoRa node to a wide network such as the internet or your local network. Though the full fledged LoRa gateways available on the market proivide advance features and capabilities, they are costly and and bulky. Today, I will share the steps and my experience in setting up a LoRa gateway using two palm-sized embedded systems - a LoPy and Raspberry Pi 3. 
 
 The already available instructions on manufacturer site are designed to be used for The Things Network. This blog provide a minimum steps to setup a Chirpstack LoRaWAN server to which one have more control and is not connected to the internet. 
+
+The whole process has four stages:
+
+1. Install Chirpstack stack on RPi3.
+2. Create a wireless access point on the RPi3.
+3. Setup the LoPy as nanogateway and adding it to Chirpstack server.
+4. Add the end node to the Chirpstack server and test.
+
+###Pre-requisites
+1. RPi3 with Raspbian installed and connected to a monitor. We need the screen at least during all the stages. However, once the whole setup is finished, you can use the system headless.
+2. RPi3 connected to internet for update and downloading required packages.
+3. Two LoPys with latest firmware. I am using 1.16.
 
 Let us first setup the LoPy. I am using a LoPy4.0 with expansion board 3.0 updated to firmware 1.16. **Please update the LoPy before proceeding.** We will use the nano-gateway code provided by pycom. There are a total of 3 files - main.py, config.py, and nanogateway.py.
 
