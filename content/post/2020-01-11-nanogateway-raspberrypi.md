@@ -16,18 +16,29 @@ The already available instructions on manufacturer site are designed to be used 
 
 The whole process has four stages:
 
-1. Install Chirpstack stack on RPi3.
+1. Install Chirpstack LoRaWAN stack on RPi3.
 2. Create a wireless access point on the RPi3.
 3. Setup the LoPy as nanogateway and adding it to Chirpstack server.
 4. Add the end node to the Chirpstack server and test.
 
-###Pre-requisites
+**Pre-requisites**
 
 1. RPi3 with Raspbian installed and connected to a monitor. We need the screen at least during all the stages. However, once the whole setup is finished, you can use the system headless.
 2. RPi3 connected to internet for update and downloading required packages.
 3. Two LoPys with latest firmware. I am using 1.16.
+4. Atom editor with pycom plugin to upload code to LoPy.
 
-Let us first setup the LoPy. I am using a LoPy4.0 with expansion board 3.0 updated to firmware 1.16. **Please update the LoPy before proceeding.** We will use the nano-gateway code provided by pycom. There are a total of 3 files - main.py, config.py, and nanogateway.py.
+_Stage-1_
+
+1. `sudo apt update` & `sudo apt upgrade` -- first update and then upgrade the Raspbian OS.
+
+2. Follow the steps from here: https://www.chirpstack.io/guides/debian-ubuntu/ and install the chirpstack.
+
+_Stage-2_
+
+1. 
+
+Let us first setup the LoPy. I am using a LoPy4.0 with expansion board 3.0 updated to firmware 1.16. _Please update the LoPy before proceeding._ We will use the nano-gateway code provided by pycom. There are a total of 3 files - main.py, config.py, and nanogateway.py.
 
 I am using ATOM editor with a pycom plugin.
 
