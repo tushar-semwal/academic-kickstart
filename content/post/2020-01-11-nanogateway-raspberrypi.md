@@ -21,7 +21,7 @@ The whole process has four stages:
 3. Setup the LoPy as nanogateway and adding it to Chirpstack server.
 4. Add the end node to the Chirpstack server and test.
 
-__Pre-requisites__
+_Pre-requisites_
 
 1. RPi3 with Raspbian installed and connected to a monitor. We need the screen at least during all the stages. However, once the whole setup is finished, you can use the system headless.
 2. RPi3 connected to internet for update and downloading required packages.
