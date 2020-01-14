@@ -22,6 +22,7 @@ The whole process has four stages:
 4. Add the end node to the Chirpstack server and test.
 
 ###Pre-requisites
+
 1. RPi3 with Raspbian installed and connected to a monitor. We need the screen at least during all the stages. However, once the whole setup is finished, you can use the system headless.
 2. RPi3 connected to internet for update and downloading required packages.
 3. Two LoPys with latest firmware. I am using 1.16.
