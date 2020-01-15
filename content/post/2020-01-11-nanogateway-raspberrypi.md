@@ -32,19 +32,17 @@ _Step-1_
 
 1. `sudo apt update` & `sudo apt upgrade` -- first update and then upgrade the Raspbian OS.
 
-2. Follow the steps from here: https://www.chirpstack.io/guides/debian-ubuntu/ and install the chirpstack.
+2. Follow the steps from [here](https://www.chirpstack.io/guides/debian-ubuntu/ and install the chirpstack).
 
 _Step-2_
 
-The RPi3 has an in-built WiFi chipset which can be converted into an access point to which other WiFi-enabled devices can connect (for e.g., LoPy). U
+The RPi3 has an in-built WiFi chipset which can be converted into an access point to which other WiFi-enabled devices can connect (for e.g., LoPy). Follow the steps in this tutorial: 	
 
-Follow the steps in this tutorial: 	[Setting up a Raspberry Pi as an access point in a standalone network (NAT)](https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md). No need to follow the steps for sharing internet, we dont need it.
+[Setting up a Raspberry Pi as an access point in a standalone network (NAT)](https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md). No need to follow the steps for sharing internet, we dont need it.
 
 _Step-3_
 
-
-
-Let us first setup the LoPy. I am using a LoPy4.0 with expansion board 3.0 updated to firmware 1.16. _Please update the LoPy before proceeding._ We will use the nano-gateway code provided by pycom. There are a total of 3 files - main.py, config.py, and nanogateway.py.
+I am using a LoPy4.0 with expansion board 3.0 updated to firmware 1.16. _Please update the LoPy before proceeding._ We will use the nano-gateway code provided by pycom. There are a total of 3 files - main.py, config.py, and nanogateway.py.
 
 I am using ATOM editor with a pycom plugin.
 
@@ -55,7 +53,7 @@ import ubinascii
 wl = WLAN()
 ubinascii.hexlify(wl.mac())[:6] + 'FFFE' + ubinascii.hexlify(wl.mac())[6:]
 ```
-You will get output similar to `b'240ac4FFFE008d88'`. Copy the `240ac4FFFE008d88` part and save somewhere. We will be using it later.
+You will get output similar to `b'240ac4FFFE008d88'`. Copy the `240ac4FFFE008d88` part and save it somewhere for later use.
 
 2. Create a project folder and copy these three files - [main.py](https://github.com/pycom/pycom-libraries/blob/master/examples/lorawan-nano-gateway/main.py), [config.py](https://github.com/pycom/pycom-libraries/blob/master/examples/lorawan-nano-gateway/config.py), and [nanogateway.py](https://github.com/pycom/pycom-libraries/blob/master/examples/lorawan-nano-gateway/nanogateway.py) inside the folder.
 
