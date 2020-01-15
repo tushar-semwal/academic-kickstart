@@ -32,7 +32,7 @@ _Step-1_
 
 1. `sudo apt update` & `sudo apt upgrade` -- first update and then upgrade the Raspbian OS.
 
-2. Follow the steps from [here](https://www.chirpstack.io/guides/debian-ubuntu/ and install the chirpstack).
+2. Follow the steps from [here](https://www.chirpstack.io/guides/debian-ubuntu/) and install the chirpstack.
 
 _Step-2_
 
