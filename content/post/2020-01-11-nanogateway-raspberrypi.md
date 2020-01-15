@@ -14,7 +14,7 @@ LoRa Gateway in a LoRaWAN network is a device/hardware which connects an end sen
 
 The already available instructions on manufacturer site are designed to be used for The Things Network. This blog provide a minimum steps to setup a Chirpstack LoRaWAN server to which one have more control and is not connected to the internet. 
 
-The whole process has four stages:
+The whole process has four major steps:
 
 1. Install Chirpstack LoRaWAN stack on RPi3.
 2. Create a wireless access point on the RPi3.
@@ -28,7 +28,7 @@ _Pre-requisites_
 3. Two LoPys with latest firmware. I am using 1.16.
 4. Atom editor with pycom plugin to upload code to LoPy.
 
-_Stage-1_
+_Step-1_
 
 1. `sudo apt update` & `sudo apt upgrade` -- first update and then upgrade the Raspbian OS.
 
@@ -36,7 +36,13 @@ _Stage-1_
 
 _Stage-2_
 
-1. 
+1. The RPi3 has an in-built WiFi chipset which can be converted into an access point to which other WiFi-enabled devices can connect (for e.g., LoPy). Use,
+
+`sudo apt install dnsmasq hostapd`
+
+`Note`: _Internet will be disabled if Pi is used as an access point, though there is a solution which is not covered in this post._
+
+
 
 Let us first setup the LoPy. I am using a LoPy4.0 with expansion board 3.0 updated to firmware 1.16. _Please update the LoPy before proceeding._ We will use the nano-gateway code provided by pycom. There are a total of 3 files - main.py, config.py, and nanogateway.py.
 
