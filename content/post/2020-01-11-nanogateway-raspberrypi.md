@@ -34,13 +34,13 @@ _Step-1_
 
 2. Follow the steps from here: https://www.chirpstack.io/guides/debian-ubuntu/ and install the chirpstack.
 
-_Stage-2_
+_Step-2_
 
-1. The RPi3 has an in-built WiFi chipset which can be converted into an access point to which other WiFi-enabled devices can connect (for e.g., LoPy). Use,
+The RPi3 has an in-built WiFi chipset which can be converted into an access point to which other WiFi-enabled devices can connect (for e.g., LoPy). U
 
-`sudo apt install dnsmasq hostapd`
+Follow the steps in this tutorial: 	[Setting up a Raspberry Pi as an access point in a standalone network (NAT)](https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md). No need to follow the steps for sharing internet, we dont need it.
 
-`Note`: _Internet will be disabled if Pi is used as an access point, though there is a solution which is not covered in this post._
+_Step-3_
 
 
 
