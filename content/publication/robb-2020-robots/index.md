@@ -5,6 +5,6 @@ authors = ["David Robb", "Muneeb Ahmad", " others"]
 publication_types = ["1"]
 abstract = ""
 featured = false
-publication = "*15th Annual ACM/IEEE International Conference on Human-Robot Interaction 2020*"
+publication = "*15th Annual ACM/IEEE International Conference on Human-Robot Interaction (HRI) 2020*"
 +++
 
