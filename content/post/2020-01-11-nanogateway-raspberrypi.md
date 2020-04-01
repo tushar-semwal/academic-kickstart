@@ -67,11 +67,24 @@ You will get output similar to `b'240ac4FFFE008d88'`. Copy the `240ac4FFFE008d88
 	- WIFI_PASS = 'WIFI password created in Step-2'
 	- I am in Europe region and thus uncomment the lines for EU868 and comment for US915.
 
+6. Upload the project into the LoPy using Atom.
+
 _Step-4_
 
 Now we need to register both the Nanogateway and the client LoPy node on the Chirpstack server. This step is important in order to create and join the LoRaWAN network.
 
-1. Follow this youtube [video](https://youtu.be/mkuS5QUj5Js?t=285) from time=04:45.
+1. Follow this youtube [video](https://youtu.be/mkuS5QUj5Js?t=285tea) from time=04:45.
+2. The gateway, service, device and application profiles should be created by now.
+3. Now keep the RPi and the LoPy with the nanogateway code together.
+4. The nanogateway should now be able to connect to the RPi hotspot and thus they are on the same network. In principle, whatever the data packet nanogateway receives from the client LoPy node, will be forwarded to the Chirpstack server running on the RPi.
+5. At the client node side: Upload the code from [here](https://github.com/pycom/pycom-libraries/blob/master/examples/lorawan-nano-gateway/otaa_node.py) into another LoPy which will act as a clinet node.
+
+
+##Conclusions
+If everything is setup fine, you should be able to see the packets received at the RPi side. I hope this tutorial helps any enthusiast and hacker out there.
+
+Thank you.
+
 
 
 
