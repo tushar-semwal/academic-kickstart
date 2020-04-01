@@ -9,7 +9,6 @@ header:
   caption: ''
   image: ''
 ---
-[Blog not complete yet. Under construction!!]
 LoRa Gateway in a LoRaWAN network is a device/hardware which connects an end sensing/client LoRa node to a wide network such as the internet or your local network. Though the full fledged LoRa gateways available on the market proivide advance features and capabilities, they are costly and and bulky. Today, I will share the steps and my experience in setting up a LoRa gateway using two palm-sized embedded systems - a LoPy and Raspberry Pi 3. 
 
 The already available instructions on manufacturer site are designed to be used for The Things Network. This blog provide a minimum steps to setup a Chirpstack LoRaWAN server to which one have more control and is not connected to the internet. 
