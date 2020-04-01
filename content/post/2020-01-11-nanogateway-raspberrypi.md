@@ -80,7 +80,8 @@ Now we need to register both the Nanogateway and the client LoPy node on the Chi
 5. At the client node side: Upload the code from [here](https://github.com/pycom/pycom-libraries/blob/master/examples/lorawan-nano-gateway/otaa_node.py) into another LoPy which will act as a clinet node.
 
 
-##Conclusions
+**Conclusions**
+
 If everything is setup fine, you should be able to see the packets received at the RPi side. I hope this tutorial helps any enthusiast and hacker out there.
 
 Thank you.
